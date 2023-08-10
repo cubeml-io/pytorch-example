@@ -52,5 +52,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 # python ./code/pytorch_distributed_demo_cpu.py --world_size=2 --node_rank=${VC_TASK_INDEX} --master_addr=${VC_MASTER_HOSTS%%,*} --master_port=12345
